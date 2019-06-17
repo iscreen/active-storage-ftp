@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "activestorage/ftp"
+require "active_storage_ftp"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

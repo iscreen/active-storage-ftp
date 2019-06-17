@@ -25,8 +25,6 @@ module ActiveStorage
             result += data
           end
           result
-        rescue StandardError => _
-          raise ActiveStorage::FileNotFoundError
         end
       end
     end
@@ -46,8 +44,6 @@ module ActiveStorage
             offset += data
           end
         end
-      rescue StandardError => _
-        raise ActiveStorage::FileNotFoundError
       end
     end
 
