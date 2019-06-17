@@ -1,4 +1,4 @@
-# Activestorage::Ftp
+# ActiveStorageFtp
 
 Active Storage FTP Service, This project only support FTP service not SSH
 
