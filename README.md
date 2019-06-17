@@ -3,7 +3,7 @@
 Active Storage FTP Service, This project only support FTP service not SSH
 
 [![Build Status](https://travis-ci.org/iscreen/active-storage-ftp.svg)](https://travis-ci.org/iscreen/active-storage-ftp)
-[![CircleCI](https://circleci.com/gh/iscreen/active-storage-ftp.svg?style=shield)](https://circleci.com/gh/iscreen/active-storage-ftp)
+[![CircleCI](https://circleci.com/gh/iscreen/active-storage-ftp.svg?style=svg)](https://circleci.com/gh/iscreen/active-storage-ftp)
 [![Gem Version](https://badge.fury.io/rb/active-storage-ftp.svg)](https://badge.fury.io/rb/active-storage-ftp)
 
 
