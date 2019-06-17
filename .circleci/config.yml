@@ -1,10 +1,26 @@
-machine:
-  ruby:
-    version: 2.3.5
+version: 2
 
-dependencies:
-  pre:
-    - gem install bundler --pre
-
-  override:
-    - bundle install: # note ':' here
+.build_template: &build_definition
+  steps:
+    - checkout
+    - run:
+        name: Bundle version
+        command: gem install bundler
+    - run:
+        name: Bundle Install
+        command: bundle check || bundle install
+    - run:
+        name: Run tests
+        command: |
+          bundle exec rspec
+  working_directory: ~/app
+jobs:
+  build_ruby2_5:
+    <<: *build_definition
+    docker:
+      - image: ruby:2.5
+workflows:
+  version: 2
+  build_ruby_versions:
+    jobs:
+      - build_ruby2_5
