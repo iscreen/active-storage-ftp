@@ -1,0 +1,10 @@
+machine:
+  ruby:
+    version: 2.3.4
+
+dependencies:
+  pre:
+    - gem install bundler --pre
+
+  override:
+    - bundle install: # note ':' here
