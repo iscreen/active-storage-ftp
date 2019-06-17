@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Active Storage FTP Service.}
   spec.description   = %q{Active Storage FTP Service.}
-  spec.homepage      = 'https://api.genbagames.com/doc/'
+  spec.homepage      = 'https://github.com/iscreen/active-storage-ftp'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
