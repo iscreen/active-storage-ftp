@@ -12,7 +12,7 @@ Active Storage FTP Service, This project only support FTP service not SSH
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'actives-storage-ftp'
+gem 'active-storage-ftp'
 ```
 
 And then execute:
@@ -48,4 +48,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/iscreen/actives-torage-ftp.
+Bug reports and pull requests are welcome on GitHub at https://github.com/iscreen/active-storage-ftp.
