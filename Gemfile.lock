@@ -60,7 +60,7 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
-    rake (10.5.0)
+    rake (13.0.1)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -85,7 +85,7 @@ DEPENDENCIES
   active-storage-ftp!
   activestorage (> 5.0)
   bundler (~> 2.0)
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
